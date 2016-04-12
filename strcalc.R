@@ -7,6 +7,7 @@ computer<-function(input_string){
                    '+' =num0+num1,
                    '-' =num0-num1,
                    '*' =num0*num1,
+                   '/' =num0/num1,
                    NA)
   if(is.na(result)){
     print('unknown operator!')
